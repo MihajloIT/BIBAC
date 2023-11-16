@@ -826,6 +826,12 @@ section {
   }
 }
 
+@media (max-width: 1365px) {
+  .stats-counter {
+    background-attachment: fixed;
+  }
+}
+
 .stats-counter .stats-item {
   padding: 30px;
   width: 100%;
@@ -850,7 +856,7 @@ section {
 .stats-counter-1 {
   background-attachment: fixed;
 }
-}
+
 
 .stats-counter-1 .stats-item {
 padding: 30px;
