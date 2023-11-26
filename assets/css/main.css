@@ -592,6 +592,16 @@ section {
   min-height: 500px;
 }
 
+@media(max-width : 991px)
+{
+  .about .about-img {
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+  }
+
+} 
+
 .about h3 {
   font-weight: 700;
   font-size: 36px;
@@ -827,13 +837,8 @@ section {
 
 }
 
-/* @media (max-width: 1365px) {
-  .stats-counter {
-    background-attachment: fixed;
-  }
-} */
 
-.stats-counter .stats-item {
+/* .stats-counter .stats-item {
   padding: 30px;
   width: 100%;
 }
@@ -852,7 +857,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 .stats-counter-1 {
   background-attachment: fixed;
@@ -1046,7 +1051,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .testimonials .testimonial-item .stars i {
-  color: #ffc107;
+  color: #ff0707;
   margin: 0 1px;
 }
 
